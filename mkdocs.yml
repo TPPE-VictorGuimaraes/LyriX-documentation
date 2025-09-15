@@ -1,0 +1,55 @@
+site_name: LyriX Docs
+site_description: Documentação do aplicativo de letras de música
+site_author: Victor Hugo
+repo_url: https://github.com/TPPE-VictorGuimaraes/LyriX-documentation
+repo_name: LyriX-documentation
+
+
+nav:
+  - Home: index.md
+  - Visão Geral: overview.md
+  - Ambiente:
+    - Locker: ambiente\ambiente-locker.md
+    - Banco de Dados (Docker): ambiente\ambiente-db-docker.md
+    - BD (IDE / Conexão): ambiente\ambiente-db-ide.md
+  - Arquitetura: 
+    - Arquitetura: arquitetura\arquitetura.md
+    - Diagrama UML: arquitetura\uml.md
+  - Backend:
+    - Repositório & Execução: backend\backend.md
+  - Entrega: entrega\pc1.md
+  - Protótipo: prototipo\prototipo.md
+  - Requisitos: 
+      - Elicitação: 
+        - Entrevista: requisitos\elicitacao\entrevista.md
+      - Backlog: requisitos\backlog.md
+  - Testes: testes\testes.md
+
+
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      background: black
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      background: black
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
