@@ -7,9 +7,9 @@
   - [ ] BD dockerizado
   - [ ] BD IDE
   - [ ] Repositório backend + uma US
-  - [ ] Arquitetura
+  - [x] Arquitetura
   - [x] Backlog (10 hist.)
-  - [ ] UML
+  - [x] UML
   - [ ] Testes (skipado)
   - [ ] Protótipo (Figma)
 

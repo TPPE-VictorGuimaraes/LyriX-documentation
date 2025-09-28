@@ -22,7 +22,10 @@ nav:
   - Requisitos: 
       - Elicitação: 
         - Entrevista: requisitos\elicitacao\entrevista.md
-      - Backlog: requisitos\backlog.md
+        - Instrospecção: requisitos\elicitacao\introspeccao.md
+      - Backlog: 
+        - Backlog: requisitos\backlog\backlog.md
+        - USM: requisitos\backlog\usm.md
   - Testes: testes\testes.md
 
 

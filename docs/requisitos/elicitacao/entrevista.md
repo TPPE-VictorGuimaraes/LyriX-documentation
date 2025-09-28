@@ -1,4 +1,4 @@
-# Elicitação de Requisitos
+# Entrevista
 
 Foi realizada uma **entrevista com um stakeholder** interessado no aplicativo de letras de música. A partir dessa entrevista foram coletadas percepções sobre funcionalidades essenciais, melhorias desejadas e ideias de diferenciais. Com base nas respostas, foi possível elicitar requisitos funcionais e não funcionais, além de organizar **histórias de usuário**, **features** e **épicos**.
 
@@ -55,25 +55,25 @@ Foi realizada uma **entrevista com um stakeholder** interessado no aplicativo de
 ## Requisitos Elicitados
 
 ### Requisitos Funcionais (RF)
-1. RF01 — Buscar letras por título.  
-2. RF02 — Buscar letras por artista.  
-3. RF03 — Exibir a letra completa da música.  
-4. RF04 — Favoritar letras e listar favoritos.  
-5. RF05 — Compartilhar letras com outros aplicativos.  
-6. RF06 — Exibir capa do álbum junto da letra.  
-7. RF07 — Armazenar e exibir histórico de buscas.  
-8. RF08 — Oferecer tradução da letra.  
-9. RF09 — Mostrar letra sincronizada com a música (karaokê).  
-10. RF10 — Integrar o app com players externos (Spotify, YouTube).  
-11. RF11 — Enviar notificações sobre novidades de artistas favoritos.  
-12. RF12 — Permitir acesso offline às letras já visualizadas.  
+- RF01 — Buscar letras por título.  
+- RF02 — Buscar letras por artista.  
+- RF03 — Exibir a letra completa da música.  
+- RF04 — Favoritar letras e listar favoritos.  
+- RF05 — Compartilhar letras com outros aplicativos.  
+- RF06 — Exibir capa do álbum junto da letra.  
+- RF07 — Armazenar e exibir histórico de buscas.  
+- RF08 — Oferecer tradução da letra.  
+- RF09 — Mostrar letra sincronizada com a música (karaokê).  
+- RF10 — Integrar o app com players externos (Spotify, YouTube).  
+- RF11 — Enviar notificações sobre novidades de artistas favoritos.  
+- RF12 — Permitir acesso offline às letras já visualizadas.  
 
 ### Requisitos Não Funcionais (RNF)
-1. RNF01 — O app deve ser desenvolvido em Kotlin para Android.  
-2. RNF02 — O backend deve usar PostgreSQL dockerizado.  
-3. RNF03 — O sistema deve apresentar interface responsiva e fluida.  
-4. RNF04 — O app deve utilizar cores roxo e preto como identidade visual.  
-5. RNF05 — O tempo de resposta da busca deve ser inferior a 3 segundos.  
+- RNF01 — O app deve ser desenvolvido em Kotlin para Android.  
+- RNF02 — O backend deve usar PostgreSQL dockerizado.  
+- RNF03 — O sistema deve apresentar interface responsiva e fluida.  
+- RNF04 — O app deve utilizar cores roxo e preto como identidade visual.  
+- RNF05 — O tempo de resposta da busca deve ser inferior a 3 segundos.  
 
 ---
 
