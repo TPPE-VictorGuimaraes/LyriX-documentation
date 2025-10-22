@@ -18,7 +18,7 @@ Existem diferentes abordagens utilizadas no desenvolvimento de apps Android e se
 Neste projeto, foi adotada uma combinação entre:  
 
 - **Clean Architecture + MVVM no aplicativo mobile**, utilizando **Jetpack Compose** para a interface de usuário.  
-- **Ktor no backend**, com **documentação de API via Swagger/OpenAPI**, banco de dados **PostgreSQL dockerizado** e serviços REST.  
+- **Ktor no backend**, com **documentação de API via Swagger/OpenAPI**, banco de dados **MySQL dockerizado** e serviços REST.  
 
 Essa escolha foi feita para garantir:  
 
@@ -71,7 +71,7 @@ O **backend** será responsável por fornecer os dados de letras de músicas, ar
    - Define contratos de repositórios.  
 
 **Camada de Dados (Repositories)**  
-   - Integração com banco de dados **PostgreSQL** (dockerizado).  
+   - Integração com banco de dados **MySQL** (dockerizado).  
    - Uso de ORM/SQL DSL (Exposed, Hibernate ou equivalente).  
 
 **Documentação da API**  
